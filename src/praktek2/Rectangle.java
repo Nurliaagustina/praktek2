@@ -13,7 +13,10 @@ public class Rectangle {
    double hitungluas() {
        double luas;
        luas=panjang*lebar;
-       return luas;
-              
+       return luas;        
+   }
+   
+   void cetakluas(){
+       system.out.println("luasnya adalah: "+hitungluas());
    }
 }
